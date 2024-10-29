@@ -21,6 +21,28 @@ namespace Stack___Queue
 
             Console.WriteLine(Stack.ToString());
 
+            Console.WriteLine("\n");
+
+            Console.WriteLine(Stack.Pop().ToString());
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(Stack.Pop().ToString());
+            Console.WriteLine(Stack.Pop().ToString());
+            Console.WriteLine(Stack.Pop().ToString());
+
+            Console.WriteLine("\n\n");
+
+            Console.WriteLine(Stack.ToString());
+
+            Console.WriteLine("\n\n");
+
+            Console.WriteLine(Stack.Pop().ToString());
+
+            Console.WriteLine("\n\n");
+
+            Console.WriteLine(Stack.ToString());
+
             Console.ReadKey();
         }
     }
