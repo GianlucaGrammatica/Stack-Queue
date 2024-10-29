@@ -10,6 +10,9 @@ namespace Stack___Queue
     {
         static void Main(string[] args)
         {
+
+            //Test Stack
+            /*
             Stack<int> Stack = new Stack<int>();
 
             Stack.Push(new Node<int>(0));
@@ -42,6 +45,42 @@ namespace Stack___Queue
             Console.WriteLine("\n\n");
 
             Console.WriteLine(Stack.ToString());
+            */
+
+
+            //Test Queue
+            Queue<int> Queue = new Queue<int>();
+
+            Queue.Shift(new Node<int>(0));
+            Queue.Shift(new Node<int>(1));
+            Queue.Shift(new Node<int>(2));
+            Queue.Shift(new Node<int>(3));
+            Queue.Shift(new Node<int>(4));
+            Queue.Shift(new Node<int>(5));
+
+            Console.WriteLine(Queue.ToString());
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(Queue.UnShift().ToString());
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(Queue.UnShift().ToString());
+            Console.WriteLine(Queue.UnShift().ToString());
+            Console.WriteLine(Queue.UnShift().ToString());
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(Queue.ToString());
+
+            Console.WriteLine("\n\n");
+
+            Console.WriteLine(Queue.UnShift().ToString());
+
+            Console.WriteLine("\n\n");
+
+            Console.WriteLine(Queue.ToString());
 
             Console.ReadKey();
         }
